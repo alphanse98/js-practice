@@ -1,0 +1,29 @@
+.main{
+    width: 100%;
+    height: 300px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+}
+p{
+    /* position: fixed; */
+    background-color: brown;
+    margin: 50px;
+    width: 1500px;
+    
+    
+ 
+    transform: translateX(0%);
+    /* display: */
+    display: ;
+}
+.add {
+    cursor: help;
+    cursor: not-allowed;
+    cursor: wait;
+    cursor: crosshair;
+    cursor: progress;
+}
+
