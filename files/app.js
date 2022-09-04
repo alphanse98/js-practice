@@ -1,25 +1,25 @@
-let y = 'hgftt13kl786jhhj74'
-let srt = y.split('')
-let t = 0
- 
-console.log(srt);
-srt.forEach(srt => {
-  if( srt>0 || srt<=9 ){
-    
-    t = t + (~~srt)
-  }
-});
-console.log(t);
+let srt = 'alphanse'
 
- 
- 
+console.log(srt.length);
+console.log(srt.includes('a'));
+console.log(srt.split(''));
+console.log(srt.startsWith())
 
+// <==================================================================================>
 
+// let y = "hgftt13kl786jhhj74";
+// let srt = y.split("");
+// let t = 0;
 
+// console.log(srt);
+// srt.forEach((srt) => {
+//   if (srt > 0 || srt <= 9) {
+//     t = t + ~~srt;
+//   }
+// });
+// console.log(t);
 
-
-
-
+// <==================================================================================>
 
 // let a = 12345
 // let y = 0
@@ -28,14 +28,10 @@ console.log(t);
 // for(i=1;i<=srt.length;i++){
 //   if(i%2==0){
 //      y = y + i
-    
+
 //   }
 // }
 // console.log(y);
-
-
-
-
 
 // let l = "http://127.0.0.1:5501/index.html";
 // let arr = l.split("");
@@ -43,7 +39,7 @@ console.log(t);
 // // console.log(arr);
 
 // arr.forEach((d) => {
-//   if (d == "a" || d == "b" || d == "c" 
+//   if (d == "a" || d == "b" || d == "c"
 //   || d == "e" || d == "f" || d == "g"
 //   || d == "h" || d == "i" || d == "j"
 //   || d == "k" || d == "l" || d == "m"
@@ -57,6 +53,7 @@ console.log(t);
 //   }
 // });
 
+// <==================================================================================>
 
 // let st = 'mam'
 // let ma = st.toString()
@@ -68,15 +65,13 @@ console.log(t);
 //   console.log(ma ,"is palindrome");
 // }else{console.log(ma ,"is not palindrome");}
 
-
-
-
-
 // let myname = "alphanse";
 // let arr = myname.split("")
 // console.log(arr);
 // arr = arr.filter((data) => {return data !== 'a'});
 //   console.log(arr);
+
+// <==================================================================================>
 
 // let a = "https://www.youtube.com";
 // let b = a.split(".");
@@ -94,6 +89,8 @@ console.log(t);
 
 // console.log(b[1]);
 // console.log(b[2]);
+
+// <==================================================================================>
 
 // let a = [1,3,2]
 // let arr = []
@@ -113,6 +110,8 @@ console.log(t);
 //         }
 // })
 // console.log(arr)
+
+// <==================================================================================>
 
 // let arr = [],
 //   obj = [
@@ -250,3 +249,5 @@ console.log(t);
 // // console.log(arcr.map());
 
 // var mapx = arcr.map((v) => console.log(v));
+
+// <==================================================================================>
