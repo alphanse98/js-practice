@@ -1,9 +1,10 @@
-let srt = 'alphanse'
+let srt = "alphanse";
 
 console.log(srt.length);
-console.log(srt.includes('a'));
-console.log(srt.split(''));
-console.log(srt.startsWith())
+console.log(srt.includes("a"));
+console.log(srt.split(""));
+console.log(srt.startsWith("a"));
+console.log(srt.endsWith("e"));
 
 // <==================================================================================>
 
