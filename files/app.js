@@ -1,10 +1,78 @@
-let srt = "alphanse";
+let input = 9876543210;
 
-console.log(srt.length);
-console.log(srt.includes("a"));
-console.log(srt.split(""));
-console.log(srt.startsWith("a"));
-console.log(srt.endsWith("e"));
+let s = input.toString().split("").reverse();
+
+s.forEach((a) => {
+  if (a == "1") {
+    console.log("one");
+  } else if (a == 2) {
+    console.log("two");
+  } else if (a == 3) {
+    console.log("three");
+  } else if (a == 4) {
+    console.log("four"); 
+  } else if (a == 5) {
+    console.log("five");
+  } else if (a == 6) {
+    console.log("six");
+  } else if (a == 7) {
+    console.log("seven");
+  } else if (a == 8) {
+    console.log("eight");
+  } else if (a == 9) {
+    console.log("nine");
+  } else if (a == 0) {
+    console.log("zero");
+  }
+});
+
+// <===================================================================================>//
+// let a = "ALPHANSE",
+
+//   b = "MARI SELVAM";
+
+// let aarray = a.split(""),
+//   barray = b.split("");
+
+// aarray.forEach(() => {
+//   if()
+// });
+// console.log(a.length);
+// console.log(a);
+
+// <===================================================================================>
+// let a, b, c, d;
+
+// a = Math.floor(Math.random() * 256);
+// b = Math.floor(Math.random() * 256);
+// c = Math.floor(Math.random() * 256);
+
+// console.log(`rgb(${a},${b},${c})`);
+// d = `rgb(${a},${b},${c})`;
+
+// document.body.style.backgroundColor = d;
+
+// console.log(Math.floor(Math.random() * 16777215));
+
+// <===================================================================================>
+// let srt = "alphanse",
+//   srt1 = "Samuvel";
+
+// console.log(srt.length);
+// console.log(srt.includes("a"));
+// console.log(srt.split(""));
+// console.log(srt.startsWith("a"));
+// console.log(srt.endsWith("e"));
+// console.log(srt.indexOf("e"));
+// console.log(srt.toUpperCase());
+// console.log("HELLO".toLowerCase());
+// console.log(srt.replace("a", "A"));
+// console.log(srt.replaceAll("a", "A"));
+// console.log(srt.match("a"));
+// console.log(srt.concat(srt1));
+// console.log(srt.repeat(3));
+// console.log(srt.substring(5));
+// console.log(srt.slice(3));
 
 // <==================================================================================>
 
