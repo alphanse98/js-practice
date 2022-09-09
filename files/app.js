@@ -1,4 +1,4 @@
-let input = 9876543210;
+let input = 987654321;
 
 let s = input.toString().split("").reverse();
 
