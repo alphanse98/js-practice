@@ -1,30 +1,56 @@
-let input = 987654321;
+let arr = [3,7,10,24,8,12]
 
-let s = input.toString().split("").reverse();
+arr.forEach((a)=>{
+  arr.forEach((b)=>{
+    if(a>b){
+      console.log(b);
+    }
+    
+  })
+  // if(i>a){console.log(a);}
+})
 
-s.forEach((a) => {
-  if (a == "1") {
-    console.log("one");
-  } else if (a == 2) {
-    console.log("two");
-  } else if (a == 3) {
-    console.log("three");
-  } else if (a == 4) {
-    console.log("four"); 
-  } else if (a == 5) {
-    console.log("five");
-  } else if (a == 6) {
-    console.log("six");
-  } else if (a == 7) {
-    console.log("seven");
-  } else if (a == 8) {
-    console.log("eight");
-  } else if (a == 9) {
-    console.log("nine");
-  } else if (a == 0) {
-    console.log("zero");
-  }
-});
+
+
+// for (i = 1; i <= 100; i++) {
+//   if (i % 7 !== 0){
+//       i.toString().split("")
+//     // if()console.log(i);
+    
+//   } else{
+//     // console.log(i);
+//   }
+// }
+
+// <===================================================================================>//
+
+// let input = 987654321;
+
+// let s = input.toString().split("").reverse();
+
+// s.forEach((a) => {
+//   if (a == "1") {
+//     console.log("one");
+//   } else if (a == 2) {
+//     console.log("two");
+//   } else if (a == 3) {
+//     console.log("three");
+//   } else if (a == 4) {
+//     console.log("four");
+//   } else if (a == 5) {
+//     console.log("five");
+//   } else if (a == 6) {
+//     console.log("six");
+//   } else if (a == 7) {
+//     console.log("seven");
+//   } else if (a == 8) {
+//     console.log("eight");
+//   } else if (a == 9) {
+//     console.log("nine");
+//   } else if (a == 0) {
+//     console.log("zero");
+//   }
+// });
 
 // <===================================================================================>//
 // let a = "ALPHANSE",
