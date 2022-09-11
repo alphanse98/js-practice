@@ -1,26 +1,3 @@
-let arr = [3,7,10,24,8,12]
-
-arr.forEach((a)=>{
-  arr.forEach((b)=>{
-    if(a>b){
-      console.log(b);
-    }
-    
-  })
-  // if(i>a){console.log(a);}
-})
-
-
-
-// for (i = 1; i <= 100; i++) {
-//   if (i % 7 !== 0){
-//       i.toString().split("")
-//     // if()console.log(i);
-    
-//   } else{
-//     // console.log(i);
-//   }
-// }
 
 // <===================================================================================>//
 
