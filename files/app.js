@@ -1,11 +1,9 @@
 let a = new Date(2027, 1, 0),
-b = new Date(2027, 2, 0)
+  b = new Date(2027, 2, 0);
 
-
-console.log(a-b);
-console.log(a-b/24);
-console.log(a-b/24/365); 
-console.log(a-b/24/365/60);
+console.log(a - b / 24);
+console.log(a - b / 24 / 365);
+console.log(a - b / 24 / 365 / 60);
 console.log(new Date(2022, 9, 14));
 // <====================================================================================>//
 
