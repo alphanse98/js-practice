@@ -4,10 +4,10 @@ let a = new Date(2027, 1, 0),
 console.log(a - b / 24);
 console.log(a - b / 24 / 365);
 console.log(a - b / 24 / 365 / 60);
-console.log(new Date(2022, 9, 14));
+
 // <=======================================================================================>//
 
-// let input = 0663601534673454892654;
+// let input = 2663601734890;
 
 // let s = input.toString().split("").reverse();
 
