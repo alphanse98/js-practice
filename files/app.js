@@ -1,9 +1,30 @@
-let a = new Date(2027, 1, 0),
-  b = new Date(2027, 2, 0);
+// let a = new Date(2027, 1, 0),
 
-console.log(a - b / 24);
-console.log(a - b / 24 / 365);
-console.log(a - b / 24 / 365 / 60);
+
+var a = ['gog','cat','hen']
+
+a[100]='fox'
+
+console.log(a.length);
+
+let b = 0
+for(i=55;i<4496;i++){
+  if(i%3==0 && i%5==0){
+    // console.log(b);
+    b++
+  }
+  
+}
+
+console.log(b);
+
+
+
+//   b = new Date(2027, 2, 0);
+
+// console.log(a - b / 24);
+// console.log(a - b / 24 / 365);
+// console.log('3'+4+5);
 
 // <=======================================================================================>//
 
