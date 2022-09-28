@@ -10,7 +10,7 @@ console.log(a.length);
 let b = 0
 for(i=55;i<4496;i++){
   if(i%3==0 && i%5==0){
-    // console.log(b);
+    
     b++
   }
   
