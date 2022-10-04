@@ -1,24 +1,17 @@
-// let a = new Date(2027, 1, 0),
+var a = ["gog", "cat", "hen"];
 
-
-var a = ['gog','cat','hen']
-
-a[100]='fox'
+a[100] = "fox";
 
 console.log(a.length);
 
-let b = 0
-for(i=55;i<4496;i++){
-  if(i%3==0 && i%5==0){
-    
-    b++
+let b = 0;
+for (i = 55; i < 4496; i++) {
+  if (i % 3 == 0 && i % 5 == 0) {
+    b++;
   }
-  
 }
 
 console.log(b);
-
-
 
 //   b = new Date(2027, 2, 0);
 
